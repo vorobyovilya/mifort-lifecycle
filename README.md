@@ -18,4 +18,14 @@ For better vision every component has it's own log color:
   * **SKILL 1** - BLUE
   * **SKILL 2** - BLUEVIOLET
   * **SKILL 3** - DEEPSKYBLUE
- 
+  
+## Result
+
+  When we start the app:
+<img src="https://github.com/vorobyovilya/mifort-lifecycle/blob/master/src/ex1.png">
+
+  When we enter the name:
+<img src="https://github.com/vorobyovilya/mifort-lifecycle/blob/master/src/ex2.png">
+
+  When we change a skill value:
+<img src="https://github.com/vorobyovilya/mifort-lifecycle/blob/master/src/ex3.png">
