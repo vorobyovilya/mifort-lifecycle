@@ -17,6 +17,7 @@ export class MainComponent implements OnInit, OnChanges, DoCheck,
 
   public skills: string[] = ['Skill #1', 'Skill #2', 'Skill #3'];
 
+  public skillsColors: string[] = ['blue','blueviolet','deepskyblue']
   public skillsValues = [0, 0, 0];
 
   public total = 0;

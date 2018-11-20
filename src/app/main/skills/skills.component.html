@@ -1,7 +1,7 @@
-<p >
+<p [style.color]="skillColor">
 
   {{nameSkills}}'s {{skill}} value is {{skillValue}}
 
-  <button (click)="sendSkillValueChange(true)">+</button>
-  <button (click)="sendSkillValueChange(false)">-</button>
+  <button [style.background-color]="skillColor" (click)="sendSkillValueChange(true)">+</button>
+  <button [style.background-color]="skillColor" (click)="sendSkillValueChange(false)">-</button>
 </p>

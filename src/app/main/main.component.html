@@ -5,6 +5,7 @@
               [skill]="skill"
               [skillValue]="skillsValues[skills.indexOf(skill)]"
               (changeSkillValue)="changeSkillValue($event,skills.indexOf(skill))"
+              [skillColor] = "skillsColors[skills.indexOf(skill)]"
 
   ></app-skills>
   <label>Total: {{total}}</label>

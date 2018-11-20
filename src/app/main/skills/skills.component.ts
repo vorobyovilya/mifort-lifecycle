@@ -17,10 +17,11 @@ export class SkillsComponent implements OnInit, OnChanges, DoCheck,
   @Input() nameSkills;
   @Input() skill;
   @Input() skillValue;
+  @Input() skillColor;
   @Output() changeSkillValue: EventEmitter<any> = new EventEmitter<any>();
 
 
-  private color: string = 'blue';
+  //private color: string = 'blue';
   constructor() {
   }
 
@@ -30,38 +31,38 @@ export class SkillsComponent implements OnInit, OnChanges, DoCheck,
   }
 
   ngAfterContentChecked(): void {
-    console.log(`%cAfterContentChecked`, `color: ${this.color}`);
+    console.log(`%cAfterContentChecked`, `color: ${this.skillColor}`);
   }
 
   ngAfterContentInit(): void {
-    console.log(`%cAfterContentInit`, `color: ${this.color}`);
+    console.log(`%cAfterContentInit`, `color: ${this.skillColor}`);
   }
 
   ngAfterViewChecked(): void {
-    console.log(`%cAfterViewChecked`, `color: ${this.color}`);
+    console.log(`%cAfterViewChecked`, `color: ${this.skillColor}`);
 
   }
 
   ngAfterViewInit(): void {
-    console.log(`%cAfterViewInit`, `color: ${this.color}`);
+    console.log(`%cAfterViewInit`, `color: ${this.skillColor}`);
 
   }
 
   ngDoCheck(): void {
-    console.log(`%cDoCheck`, `color: ${this.color}`);
+    console.log(`%cDoCheck`, `color: ${this.skillColor}`);
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    console.log(`%cOnChanges`, `color: ${this.color}`);
+    console.log(`%cOnChanges`, `color: ${this.skillColor}`);
 
   }
 
   ngOnDestroy(): void {
-    console.log(`%cOnDestroy`, `color: ${this.color}`);
+    console.log(`%cOnDestroy`, `color: ${this.skillColor}`);
   }
 
   ngOnInit(): void {
-    console.log(`%cOnInit`, `color: ${this.color}`);
+    console.log(`%cOnInit`, `color: ${this.skillColor}`);
   }
 
 }
