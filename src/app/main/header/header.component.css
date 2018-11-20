@@ -1,0 +1,17 @@
+p{
+  font-family: "Comic Sans MS";
+}
+input{
+  font-family: "Comic Sans MS";
+  border:2px solid green;
+  border-radius: 5px;
+  font-size:100%;
+  padding:.25em .5em .3125em;
+  color: green;
+  background:transparent;
+  outline: 0 !important;
+
+
+
+}
+

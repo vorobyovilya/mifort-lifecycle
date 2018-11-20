@@ -1,0 +1,11 @@
+<p>
+  <app-header [nameHeader]="nameMain" (nameEntered)="changeName($event)"></app-header>
+  <app-skills [nameSkills]="nameMain"
+              *ngFor="let skill of skills"
+              [skill]="skill"
+              [skillValue]="skillsValues[skills.indexOf(skill)]"
+              (changeSkillValue)="changeSkillValue($event,skills.indexOf(skill))"
+
+  ></app-skills>
+  <label>Total: {{total}}</label>
+</p>

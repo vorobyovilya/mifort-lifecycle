@@ -1,0 +1,14 @@
+p{
+  font-family: "Comic Sans MS";
+  border:2px solid red;
+  border-radius: 5px;
+  padding:5px ;
+}
+label{
+  border:2px solid red;
+  border-radius: 5px;
+  padding:5px ;
+  font-size: 150%;
+  color: red;
+  margin: 50px;
+}
