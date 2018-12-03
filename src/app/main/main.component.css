@@ -4,6 +4,11 @@ p{
   border-radius: 5px;
   padding:5px ;
 }
+div{
+  font-family: "Comic Sans MS";
+  color: red;
+
+}
 label{
   border:2px solid red;
   border-radius: 5px;

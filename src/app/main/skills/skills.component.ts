@@ -18,10 +18,8 @@ export class SkillsComponent implements OnInit, OnChanges, DoCheck,
   @Input() skill;
   @Input() skillValue;
   @Input() skillColor;
-  @Output() changeSkillValue: EventEmitter<any> = new EventEmitter<any>();
+  @Output()  changeSkillValue: EventEmitter<any> = new EventEmitter<any>();
 
-
-  //private color: string = 'blue';
   constructor() {
   }
 

@@ -1,12 +1,20 @@
-<p>
-  <app-header [nameHeader]="nameMain" (nameEntered)="changeName($event)"></app-header>
-  <app-skills [nameSkills]="nameMain"
-              *ngFor="let skill of skills"
-              [skill]="skill"
-              [skillValue]="skillsValues[skills.indexOf(skill)]"
-              (changeSkillValue)="changeSkillValue($event,skills.indexOf(skill))"
-              [skillColor] = "skillsColors[skills.indexOf(skill)]"
+<div>
+  <app-header  [nameHeader]="nameMain" (nameEntered)="changeName($event)"></app-header>
+  Show skills: <input name="showHeader" type="checkbox" checked (change)="show = !show">
+  <div *ngIf="show">
 
-  ></app-skills>
+
+    <app-skills
+      [nameSkills]="nameMain"
+      *ngFor="let skill of skills"
+      [skill]="skill"
+      [skillValue]="skillsValues[skills.indexOf(skill)]"
+      (changeSkillValue)="changeSkillValue($event,skills.indexOf(skill))"
+      [skillColor]="skillsColors[skills.indexOf(skill)]"
+
+    ></app-skills>
+  </div>
+
+
   <label>Total: {{total}}</label>
-</p>
+</div>
