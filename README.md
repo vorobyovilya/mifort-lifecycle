@@ -1,5 +1,6 @@
 # Lifecycle
-> If you don't want to read, you can simply watch this short [video result] (https://drive.google.com/file/d/1rsEYVa14DxRZi66owPYVZ6TP6Nwc4MMK/view)
+> If you don't want to read, you can simply watch this short [video result](https://drive.google.com/file/d/1fjaqJzE3aUqnn70HrlI6gitV16F8M8U3/view)
+
 
 This app shows the lifecycle of angular components. 
 
