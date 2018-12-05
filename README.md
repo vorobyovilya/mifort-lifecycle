@@ -1,5 +1,4 @@
 # Lifecycle
-> If you don't want to read, you can simply watch this short [video result] (https://drive.google.com/file/d/1rsEYVa14DxRZi66owPYVZ6TP6Nwc4MMK/view)
 
 This app shows the lifecycle of angular components. 
 
@@ -28,6 +27,5 @@ For better vision every component has it's own log color:
 
   When we enter the name and when we change a skill value:
   
-<img src="https://github.com/vorobyovilya/mifort-lifecycle/blob/master/src/enterNameChangeValues.png"> 
-
+<img src="https://github.com/vorobyovilya/mifort-lifecycle/blob/master/src/ex2.png">
 

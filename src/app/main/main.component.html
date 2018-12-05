@@ -1,7 +1,6 @@
 <div>
-  Show skills: <input name="showHeader" type="checkbox" checked (change)="show = !show">
   <app-header  [nameHeader]="nameMain" (nameEntered)="changeName($event)"></app-header>
-
+  Show skills: <input name="showHeader" type="checkbox" checked (change)="show = !show">
   <div *ngIf="show">
 
 
